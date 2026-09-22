@@ -1,0 +1,89 @@
+:root {
+  --color-bg: #FDFAF6;
+  --color-text: #2C2C2C;
+  --color-accent: #C9A96E;
+  --font-heading: 'Cormorant Garamond', serif;
+  --font-body: 'Lato', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-weight: 300;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin: 0 0 1rem;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1.5rem 4rem;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(44, 44, 44, 0.06);
+  padding: 3rem 2.5rem;
+  margin-top: 2.5rem;
+}
+
+#hero {
+  background-color: transparent;
+  box-shadow: none;
+  text-align: center;
+  padding: 5rem 1.5rem 2rem;
+  margin-top: 0;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  color: var(--color-text);
+}
+
+#hero p {
+  color: var(--color-accent);
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.accent-rule {
+  width: 60px;
+  height: 2px;
+  background-color: var(--color-accent);
+  border: none;
+  margin: 1.5rem auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+section h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: var(--color-accent);
+  margin-top: 0.75rem;
+}
