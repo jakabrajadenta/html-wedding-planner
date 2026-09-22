@@ -1,5 +1,7 @@
 # Wedding Planner
 
+🔗 **Live site:** https://jakabrajadenta.github.io/html-wedding-planner/
+
 ## Bahasa Indonesia
 
 Situs statis sederhana untuk merencanakan dan melacak persiapan pernikahan — checklist, timeline, dan anggaran — dalam satu halaman.
