@@ -16,3 +16,46 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+
+# --- AI tools / assistants (local config, not part of the project) ---
+.claude/
+CLAUDE.md
+.claude.json
+.cursor/
+.cursorrules
+.cursorignore
+.github/copilot-instructions.md
+.windsurf/
+.windsurfrules
+.aider*
+.codeium/
+.continue/
+.gemini/
+GEMINI.md
+AGENTS.md
+.qodo/
+.trae/
+.junie/
+.amazonq/
+
+# --- Editor / IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Local env / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs / temp ---
+*.log
+*.tmp
+.cache/
+node_modules/
